@@ -152,7 +152,15 @@ button {
 #histories {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
+}
+
+.cntr {
+  margin: 0 10% 0 10%;
+}
+.cntr .card {
+  width: 100%;
+  height: 100%;
 }
 
 .card {
