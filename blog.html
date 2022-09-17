@@ -22,11 +22,29 @@
         <div class="line"></div>
       </div>
       <div id="histories" class="cntr">
-          <div class="card">a</div>
-          <div class="card">a</div>
-          <div class="card">a</div>
-          <div class="card">a</div>
-          <div class="card">a</div>
+          <div class="card"><h1 class="gap"><b>Local storage VS Session storage.</b></h1>
+            <p>Local Storage and Session Storage are almost the same.But,The one major difference between local Storage and session Storage is the expiration date.
+Local storage persists the storage across browser sessions. So even if the domain is opened in a new tab, or the browser is closed and reopened, the storage is saved. There is no expiration.
+Session storage is cleared when the page session ends. A page session lasts as long as the tab or the browser is open. Therefore, when you open a new tab or a new window, this creates a new session and new storage.</p></div>
+          <div class="card"><h1 class="gap"><b>Global Scope Vs. Block Scope.</b></h1>
+            <p>
+                Although, there used to be only two types of scopes before ES6, the global scope, and the local scope. But, with ES6 local scope was broken down into function scope and block scope.
+
+Global Scope: The variables defined outside of any function or curly brackets are known as global variables and have global scope. Global scope means that the variables can be accessed from any part of that program, any function or conditional state can access that variable.
+
+Block Scope: is also a sub-type of local scope. The block scope can be defined as the scope of the variables inside the curly brackets {}. Now, these curly brackets can be of loops, or conditional statements, or something else. You are only allowed to refer to these variables from within the curly brackets {}.
+            </p></div>
+          <div class="card"><h1 class="gap"><b>What is Event Loop?</b></h1>
+            <p>When we invoke a function, it gets added to something called the call stack. The call stack is part of the JS engine, this isn’t browser specific. It’s a stack, meaning that it’s first in, last out (think of a pile of pancakes). When a function returns a value, it gets popped off the stack.</p></div>
+          <div class="card"><h1 class="gap"><b>Different scenarios when we get undefined in javascript?</b></h1>
+            <p>
+                Every JavaScript variable that we create without assigning any value gets the value of undefined.
+In JavaScript number of arguments that we supply does not have to match the Parameters of the functions. The unpassed arguments are set to undefined.
+When a function has no return value, it returns undefined.
+Trying to access a non-existing property of an object returns undefined.
+Similarly, Non-existing array elements also return undefined.
+The void operator always returns undefined irrespective of the expression provided to it.
+            </p></div>
       </div>
     </div>
 

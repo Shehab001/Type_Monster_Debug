@@ -163,6 +163,13 @@ button {
   height: 100%;
 }
 
+.cntr .card p {
+  margin: 0;
+}
+.gap {
+  margin-bottom: 2%;
+}
+
 .card {
   width: 30%;
   height: 100%;
